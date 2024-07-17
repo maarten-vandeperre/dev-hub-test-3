@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test project"     # dump is a filter:
+                                    # https://backstage.io/docs/features/software-templates/builtin-actions/
+                                    # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
+spec:
+  type: owner
+  lifecycle: experimental
+  owner: "group:default/test-user"     # dump is a filter:
+                                      # https://backstage.io/docs/features/software-templates/builtin-actions/
+                                      # https://backstage.io/docs/features/software-templates/writing-templates/#built-in-filters
